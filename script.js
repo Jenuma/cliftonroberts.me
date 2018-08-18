@@ -28,5 +28,10 @@
                 });
             }
         });
+        
+        $("#btn-hire-me").click(function() {
+            $("html, body").animate({scrollTop: $("#section-hire-me").offset().top}, "slow");
+            $("#btn-hire-me").blur();
+        });
     });
 })();

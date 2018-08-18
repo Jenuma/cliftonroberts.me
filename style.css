@@ -69,16 +69,17 @@ body {
     transform: translate(-50%, -50%);
     
     color: #FFFFFF;
+    font-size: 1.5em;
     text-shadow: none;
 }
 
 /* Icon pulse */
 .fa-pulse {
 	display: inline-block;
-	-moz-animation: pulse 2s infinite linear;
-	-o-animation: pulse 2s infinite linear;
-	-webkit-animation: pulse 2s infinite linear;
-	animation: pulse 2s infinite linear;
+	-moz-animation: pulse 1s infinite linear;
+	-o-animation: pulse 1s infinite linear;
+	-webkit-animation: pulse 1s infinite linear;
+	animation: pulse 1s infinite linear;
 }
 
 @-webkit-keyframes pulse {
@@ -278,6 +279,38 @@ h3 {
 #section-skills h1 {
     display: inline-block;
     border-bottom: 2px solid #D67902;
+}
+
+#section-hire-me {
+    position: relative;
+    height: 100vh;
+    
+    background-color: #000000;
+    text-align: center;
+}
+
+#contact-me {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    
+    transform: translate(-50%, -50%);
+    
+    font-size: 1.5em;
+}
+
+#section-hire-me h1 {
+    display: inline-block;
+    border-bottom: 2px solid #D67902;
+}
+
+#section-hire-me p {
+    margin: 0;
+}
+
+#section-hire-me a {
+    color: #D67902;
+    text-decoration: none;
 }
 
 @media only screen and (min-width: 90em) {
